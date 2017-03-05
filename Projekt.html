@@ -1,84 +1,22 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<title>Projekt- valmimisel</title>
-	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<script src="myscripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="effektid.css">
 	<meta charset="utf-8"/>
+<style>
+</style>
 
-	<script>
-function openWin() {
-    window.open("https://github.com/asuun/Praktikum2.git");
-}
-function funktsioon(){
-	window.open("https://delfi.ee");
-}
-	</script>
-	<style>
-		div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
-
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-nav {
-    float: left;
-    max-width: 160px;
-    background-color: black;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
-	</style>
 </head>
-
-
 <body>
-<header>
+
+<header class="absolute" >
 	<h1 align="center">Projekt, mille mõte on alles selgumisel</h1>
 	<h3>Less important heading here</h3>
 	<p>Some additional information here</p>
-
 </header>
-<div style="background:yellow;border:1px solid #cccccc;padding: 10px;" contextmenu="mymenu">
-	<p>Right-click inside this box to see the context menu!</p>
 
-	<menu type="context" id="mymenu">
-		<menuitem label="Refresh" onclick="window.location.reload();" icon="menuu.png"></menuitem>
-		<menu label="Share on...">
-			<menuitem label="Twitter" icon="ico_twitter.png" onclick="window.open('//twitter.com/intent/tweet?text=' + window.location.href);"></menuitem>
-			<menuitem label="Facebook" icon="ico_facebook.png" onclick="window.open('//facebook.com/sharer/sharer.php?u=' + window.location.href);"></menuitem>
-		</menu>
-		<menuitem label="Email This Page" onclick="window.location='mailto:?body='+window.location.href;"></menuitem>
-	</menu>
-
-</div>
-
-<p>This example currently only works in Firefox!</p>
-
-
-
-<iframe frameborder="1" width="600" height="1200" name="iframe" align="right" scrolling="yes">
+<iframe frameborder="1" width="600" height="450" name="iframe" align="right" scrolling="yes">
 </iframe>
 <p>
 	<a href="http://enos.itcollege.ee/~asuun/Praktikum2/Praktikum2vorm1.html" target="iframe"> vorm2</a>
@@ -88,10 +26,71 @@ article {
 
 
 <h3>
+
+	<p id="kuva" name="kuva">aaaa</p>
 	<u>
 		giti link
 	</u>
 </h3>
+<p id="kuva"></p>
+<form method="get">
+	<table border="1">
+		<tr>
+			<td colspan="4">
+				<input type="text" name="kuva" id="kuva">
+			</td>
+		</tr>
+		<tr>
+			<td >
+				<input type="button" name="b7" value="7">
+			</td>
+			<td>
+				<input type="button" name="b8" value="8">
+			</td>
+			<td>
+				<input type="button" name="b9" value="9">
+			</td>
+			<td>
+				<input type="button" name="bx" value="x" onclick="arvutamine">
+			</td>
+		</tr>
+		<tr>
+			<td >
+				<input type="button" name="b4" value="4">
+			</td>
+			<td>
+				<input type="button" name="b5" value="5">
+			</td>
+			<td>
+				<input type="button" name="b6" value="6">
+			</td>
+			<td>
+				<input type="button" name="by" value="y">
+			</td>
+		</tr>
+		<td >
+			<input type="button" name="b1" value="1">
+		</td>
+		<td>
+			<input type="button" name="b2" value="2">
+		</td>
+		<td>
+			<input type="button" name="b3" value="3">
+		</td>
+		<td>
+			<input type="button" name="bz" value="z">
+		</td>
+		<tr>
+			<td>3:1</td>
+			<td>3:2</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<input type="text">
+			</td>
+		</tr>
+	</table>
+</form>
 
 <p>
 	<button type="button" onclick="funktsioon">2 Me!</button>
