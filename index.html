@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
+<meta charset="utf-8">
+<html>
+<title>Sisse logimine</title>
+
 <body>
-$END$
+
+<h1>Rakendus</h1>
+<p>Sisesta andmed:</p>
+<p id="proov"></p>
+
+
+<form>
+<input type="text" id="eesnimi" onchange="kasutaja()">
+<input type="text" id="perekonnanimi" onchange="kasutaja()"><br>
+
+    <input type="radio" name="tase" value=1 onclick="raskus()"> algaja<br>
+    <input type="radio" name="tase" value=2 onclick="raskus()"> veic karmim<br>
+    <input type="radio" name="tase" value=3 onclick="raskus()"> keskmine <br>
+    <input type="radio" name="tase" value=4 onclick="raskus()"> mega hull<br>
+    <input type="radio" name="tase" value=5 onclick="raskus()"> võimatu<br>
+</form>
+<button onclick="logimine()">kasutaja</button>
+
+
+<form action="vormit66tlus.php" method="post">
+
+
+</form>
+
+<p>Sisesta õige vastus</p>
+
+<p id="x">x</p>
+<p>+</p>
+<p id="y">y</p>
+<button onclick="genereeri()"> genereeri random väärtused</button>
+
+vastus:
+<br>
+
+<input type="number" name="vastus" id="vastus"><br>
+
+<p id="tulemus">tulemus </p>
+
+
+<button onclick="kontroll()">kontrolli</button>
+
+
+
+<button "tulemuseks()">kuva tulemust</button>
+
+<p>valed vastused</p>
+<p id="wrong">valed</p>
+<p>õiged vastused vastused</p>
+<p id="right">õiged</p>
+
+<form action="" method="post">
+
+</form>
+<!--
+<form action="fetch.php" method="post">
+  Eesnimi:<br>
+  <input type="text" name="eesnimi"><br>
+  Perenimi:<br>
+  <input type="text" name="perenimi">
+
+  <input type="submit" name="fetch" value="Fetch">
+</form>
+-->
+<script src="Index.js"></script>
 </body>
+
 </html>

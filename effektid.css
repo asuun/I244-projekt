@@ -1,14 +1,200 @@
+h1.absolute {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+    float: right;
+}
+#skeem{
+    width: 25%;
 
+
+}
 
 h1 {
-    color: red;
     text-align: center;
     size: 40px;
     font-size: 40px;
+    background-color: #cccccc;
+    top: 80px;
+    right: 0;
+
+    height: 100px;
+
+    width: auto;
+    outline-color: red;
+    border-bottom-style: solid;
+
 }
 
 body {
-    background-color: #fff;
+    background-color: #33ccff;
+}
+
+#skeem{
+    background-color: #000000;
+}
+
+
+.line {
+    position: fixed;
+    background-color: #000000;
+}
+
+.vertical {
+    width: 3px;
+    height: 80px;
+}
+
+.horizontal {
+    width: 80px;
+    height: 3px;
+    top: 260px;
+}
+.horizontal2{
+    width: 571px;
+    height: 3px;
+    top: 517px;
+}
+
+#scheme00 {
+    top: 260px;
+    left: 550px;
+}
+#scheme30 {
+    top: 260px;
+    left: 780px;
+}
+#scheme40 {
+    top: 260px;
+    left: 860px;
+}
+#scheme20 {
+    top: 260px;
+    left: 1120px;
+}
+#line14 {
+    top: 440px;
+    left: 860px;
+    color: #0099ff;
+}
+#scheme53 {
+    top: 440px;
+    left: 550px;
+    color: #0099ff;
+}
+#scheme31 {
+    top: 440px;
+    left: 780px;
+}
+#scheme52 {
+    top: 440px;
+    left: 860px;
+}
+#scheme51 {
+    top: 440px;
+    left: 1120px;
+}
+#scheme41 {
+    top: 440px;
+    left: 860px;
+}
+
+#scheme01 {
+    left: 550px;
+}
+
+#scheme02 {
+    left: 700px;
+}
+#scheme13 {
+    left: 780px;
+}
+#scheme21 {
+    left: 860px;
+
+}
+#scheme22 {
+    left: 1040px;
+}
+#scheme50 {
+    left: 550px;
+}
+
+.skeemielement {
+    position: fixed;
+    background-color: #09f;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    text-align: right;
+    outline-width: thick;
+    float: right;
+
+}
+#E1{
+    left: 505px;
+    border-radius: 50px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#E2{
+    left: 1075px;
+    border-radius: 50px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R1{
+    height: 40px;
+    left: 630px;
+    top: 240px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R2{
+    height: 40px;
+    left: 940px;
+    top: 240px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R3{
+    width: 40px;
+    left: 760px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R4{
+    width: 40px;
+    left: 840px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R5{
+    width: 40px;
+    left: 800px;
+    font-size: 24px;
+    outline-width: thick;
+}
+.nimiandmed{
+    position: fixed;
+    text-align: match-parent;
+    font-size: 25px;
+
+}
+/* for added rotation effects */
+.forty-five {
+    transform: rotate(45deg);
+}
+/* for added rotation effects */
+.forty-five {
+    transform: rotate(45deg);
 }
 
 ¤alajaamataust{
@@ -31,9 +217,6 @@ body {
     color: #fff;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
