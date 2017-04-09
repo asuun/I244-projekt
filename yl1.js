@@ -69,12 +69,21 @@ function genereeri() {
     console.log('U20', vastusU20);
     console.log('U30', vastusU30);
     //console.log('I30',vastusI30);
-
-
 }
-function proov() {
-    document.getElementById('R5').style.visibility = "hidden";
 
+function proov() {
+    document.getElementById('R3').style.display = "none";
+    document.getElementById('R4').style.display = "none";
+    document.getElementById('R5').style.opacity = "1";
+    document.getElementsByClassName("nimiandmed")['R4'].style.display="none";
+    document.getElementsByClassName("nimiandmed")['R3'].style.display="none";
+    document.getElementsByClassName("nimiandmed")['R5'].style.opacity="1";
+    document.getElementById('scheme30').style.visibility = "hidden";
+    document.getElementById('scheme31').style.visibility = "hidden";
+    document.getElementById('scheme40').style.visibility = "hidden";
+    document.getElementById('scheme41').style.visibility = "hidden";
+    document.getElementById('scheme52').style.visibility = "visible";
+    document.getElementById('scheme54').style.visibility = "visible";
 }
 
 function kontroll() {

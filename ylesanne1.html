@@ -12,7 +12,7 @@
         $(document).ready(function(){
         $(".skeemielement").hover(function(){
                 $(this).css("background-color", "#FF0000");
-
+               // console.log($(this).id);
             },
             function(){
                 $(this).css("background-color", "#09f");
@@ -22,7 +22,7 @@
            $(".line").hover(function(){
                    $(this).css("background-color", "#FF0000");
                     var gets="scheme".concat($(this).attr('id').charAt(6)).toString();
-                   // var gets=($(this).attr('id').charAt(6)).toString();
+                    //var gets=($(this).attr('id').charAt(6)).toString();
                     console.log(gets.toString());
                   //  $(document.querySelectorAll('*[id^=gets]')).css("background-color", "#FF0000");
 
@@ -43,31 +43,31 @@
     <p>Selleks kasutada kontuurvoolu meetodit</p>
 
 <image id="skeem" align="right" ></image>
-    <input type="text" id="I1"><br>
-    <input type="text" id="I2"><br>
-    <input type="text" id="I3"><br>
-    <input type="text" id="I4"><br>
-    <input type="text" id="I5"><br>
+    <a> I1</a><input type="text" id="I1"><br>
+    <a> I2</a><input type="text" id="I2"><br>
+    <a> I3</a><input type="text" id="I3"><br>
+    <a> I4</a><input type="text" id="I4"><br>
+    <a> I34</a><input type="text" id="34"><br>
     <button name="kontroll" onclick="kontroll()"> Saada</button><br>
 
     <div id="scheme00" class="line vertical"></div>
     <div id="scheme30" class="line vertical"></div>
     <div id="scheme40" class="line vertical"></div>
     <div id="scheme20" class="line vertical"></div>
-    <div id="line14" class="line vertical"></div>
+
     <div id="scheme53" class="line vertical"></div>
     <div id="scheme31" class="line vertical"></div>
     <div id="scheme52" class="line vertical"></div>
     <div id="scheme51" class="line vertical"></div>
     <div id="scheme41" class="line vertical"></div>
-
+    <div id="scheme54" class="line vertical"></div>
     <div id="scheme01" class="line horizontal"></div>
     <div id="scheme02" class="line horizontal"></div>
     <div id="scheme13" class="line horizontal"></div>
     <div id="scheme21" class="line horizontal"></div>
     <div id="scheme22" class="line horizontal"></div>
     <div id="scheme50" class="line horizontal2"></div>
-    <div id="E1" class="skeemielement" name="sk"></div>
+    <div id="E1" class="skeemielement"></div>
     <div id="E2" class="skeemielement"></div>
     <div id="R1"  class="skeemielement"></div>
     <div id="R2"  class="skeemielement"></div>
@@ -75,13 +75,14 @@
     <div id="R4"  class="skeemielement"></div>
     <div id="R5"  class="skeemielement"></div>
 
+
     <p id="E1" class="nimiandmed">E1</p>
     <p id="E2" class="nimiandmed">E2</p>
     <p id="R1" class="nimiandmed">R1</p>
     <p id="R2" class="nimiandmed">R2</p>
     <p id="R3" class="nimiandmed">R3</p>
     <p id="R4" class="nimiandmed">R4</p>
-    <p id="R5" class="nimiandmed" onclick="proov()">R5</p>
+    <p id="R5" class="nimiandmed">R5</p>
 
     <button onclick="genereeri()">genereeri</button>
     <button id="proov" onclick="proov()">xx</button>

@@ -79,11 +79,7 @@ body {
     top: 260px;
     left: 1120px;
 }
-#line14 {
-    top: 440px;
-    left: 860px;
-    color: #0099ff;
-}
+
 #scheme53 {
     top: 440px;
     left: 550px;
@@ -95,11 +91,18 @@ body {
 }
 #scheme52 {
     top: 440px;
-    left: 860px;
+    left: 820px;
+    visibility: hidden;
 }
+
 #scheme51 {
     top: 440px;
     left: 1120px;
+}
+#scheme54{
+    top: 260px;
+    left: 820px;
+    visibility: hidden;
 }
 #scheme41 {
     top: 440px;
@@ -177,6 +180,7 @@ body {
     outline-width: thick;
 }
 #R5{
+    opacity: 0;
     width: 40px;
     left: 800px;
     font-size: 24px;

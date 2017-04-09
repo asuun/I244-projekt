@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<html>
+
 <title>Sisse logimine</title>
 
 <body>
 
 <h1>Rakendus</h1>
 <p>Sisesta andmed:</p>
-<p id="proov"></p>
 
 
+<!--offline testimiseks on see ära võetud <form action="Projekt.php" method="post"> -->
 <form>
-<input type="text" id="eesnimi" onchange="kasutaja()">
-<input type="text" id="´perenimi" onchange="kasutaja()"><br>
+<input type="text" id="eesnimi" name="eesnimi" onchange="kasutaja()"><br>
+<input type="text" id="perenimi" name="perenimi" onchange="kasutaja()"><br>
 
     <input type="radio" name="tase" value=1 onclick="raskus()"> algaja<br>
     <input type="radio" name="tase" value=2 onclick="raskus()"> veic karmim<br>
     <input type="radio" name="tase" value=3 onclick="raskus()"> keskmine <br>
     <input type="radio" name="tase" value=4 onclick="raskus()"> mega hull<br>
     <input type="radio" name="tase" value=5 onclick="raskus()"> võimatu<br>
+    <button onclick="logimine()">Logimine</button>
+    <!--<button type="submit" value="submit" onclick="logimine()">kasutaja</button> -->
 </form>
-<button onclick="logimine()">kasutaja</button>
-
-
-<form action="Projekt.php" method="post">
-
-
-</form>
-
+<button onclick="redirect()">proov</button>
 <p>Sisesta õige vastus</p>
 
 <p id="x">x</p>
@@ -54,9 +49,7 @@ vastus:
 <p>õiged vastused vastused</p>
 <p id="right">õiged</p>
 
-<form action="" method="post">
 
-</form>
 <!--
 <form action="fetch.php" method="post">
   Eesnimi:<br>
