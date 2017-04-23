@@ -1,4 +1,22 @@
 <?php
+
+function alusta_session(){
+    session_set_cookie_params(30*60);
+    $expire=10*60; // aegumise aeg sekundites
+// sessiooni aegumine serveris
+    ini_set('session.gc-maxlifetime', $expire);
+// alusta uus või jätka vana sessiooni
+    session_start();
+// viimase päringu aja kontroll aegumise jaoks
+    if (isset($_SESSION['LAST_ACTIVITY']) &&
+        (time()-$_SESSION['LAST_ACTIVITY'] > $expire))
+    {
+        session_destroy();  // kustuta sessioon
+        session_start();  // alusta uut sessiooni
+    }
+// säti uus viimase päringu aeg
+    $_SESSION['LAST_ACTIVITY'] = time();
+}
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 echo "Siin toimub vormi töötlus";
