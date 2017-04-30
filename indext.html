@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<title>Sisse logimine</title>
+
+<body>
+
+<h1>Rakendus</h1>
+<p>Sisesta andmed:</p>
+
+
+<!--offline testimiseks on see ära võetud <form action="Projekt.php" method="post"> -->
+<form action="login.php">
+            <input type="text" id="eesnimi" name="eesnimi" onchange="kasutaja()"><br>
+            <input type="text" id="perenimi" name="perenimi" onchange="kasutaja()"><br>
+
+            <input type="radio" name="tase" value=1 onclick="raskus()"> algaja<br>
+            <input type="radio" name="tase" value=2 onclick="raskus()"> veic karmim<br>
+            <input type="radio" name="tase" value=3 onclick="raskus()"> keskmine <br>
+            <input type="radio" name="tase" value=4 onclick="raskus()"> mega hull<br>
+            <input type="radio" name="tase" value=5 onclick="raskus()"> võimatu<br>
+            <button formaction="login.php">Logimine</button>
+            <!--<button onclick="logimine()">Logimine</button>-->
+   <button type="submit" value="submit" onclick="logimine()">kasutaja</button>
+</form>
+
+<!--
+<form action="fetch.php" method="post">
+  Eesnimi:<br>
+  <input type="text" name="eesnimi"><br>
+  Perenimi:<br>
+  <input type="text" name="perenimi">
+
+  <input type="submit" name="fetch" value="Fetch">
+</form>
+-->
+<script src="Index.js"></script>
+
+</body>
+
+</html>

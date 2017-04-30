@@ -1,6 +1,6 @@
 var truevastus;
 var vale;
-var õige;
+var toene;
 var nimi1;
 var nimi2;
 var tase;
@@ -9,14 +9,12 @@ function kasutaja() {
     nimi1=document.getElementById("eesnimi").valueOf().value;
     nimi2=document.getElementById("perenimi").valueOf().value;
 }
+
 function raskus() {
     tase = document.querySelector('input[name="tase"]:checked').value;
     console.log(tase);
 }
 
-function redirect() {
-    window.location.href='\ylesanne1.html';
-}
 function logimine() {
     console.log(nimi1);
     console.log(nimi2);
@@ -34,8 +32,8 @@ function logimine() {
     if(tase==1){
         console.log(tase);
         window.location.href='\ylesanne1.html';
-        console.log("peaks töötama");
-    }
+
+            }
             else if(tase==2){
                 console.log(tase);
             }
@@ -53,21 +51,10 @@ function logimine() {
             }
 }
 
-
 function check() {
     if(document.getElementById("tase").checked==false)
         planhide();
 }
-
-
-function genereeri(){
-    var x=document.getElementById("x").innerHTML = Math.round(Math.random()*100);
-    var y=document.getElementById("y").innerHTML = Math.round(Math.random()*100);
-    //document.getElementById("vastus").innerHTML = x+y;
-    truevastus=x+y;
-}
-
-
 
 function kontroll() {
 
@@ -78,7 +65,7 @@ function kontroll() {
     console.log(vale);
     if (truevastus==vastus) {
         document.getElementById("tulemus").innerHTML ="õige";
-        õige++
+        toene++
     }
     else if (truevastus!=vastus){
         document.getElementById("tulemus").innerHTML ="vale";
@@ -87,7 +74,7 @@ function kontroll() {
 
 function tulemuseks() {
     document.getElementById("wrong").value=vale;
-    document.getElementById("right").value=õige;
+    document.getElementById("right").value=toene;
     console.log(vale);
 
 }
