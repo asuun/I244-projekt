@@ -1,43 +1,6 @@
-h1.absolute {
-    position: absolute;
-    top: 0px;
-    right: 0;
-    width: 200px;
-    height: 100px;
-    border: 3px solid #73AD21;
-}
-p {
-    font-family: verdana;
-    font-size: 20px;
-    float: right;
-}
+
 #skeem{
     width: 25%;
-
-
-}
-
-h1 {
-    text-align: center;
-    size: 40px;
-    font-size: 40px;
-    background-color: #cccccc;
-    top: 80px;
-    right: 0;
-
-    height: 100px;
-
-    width: auto;
-    outline-color: red;
-    border-bottom-style: solid;
-
-}
-
-body {
-    background-color: #33ccff;
-}
-
-#skeem{
     background-color: #000000;
 }
 
@@ -201,25 +164,8 @@ body {
     transform: rotate(45deg);
 }
 
-¤alajaamataust{
-    background-attachment: fixed;
-}
-#alajaam {
-    position: relative;
-    background-color: #09f;
-    margin: 20px auto;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-}
 
-#alajaamanimi {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    color: #fff;
-}
+
 
 
 error_reporting(E_ALL);

@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-
+<link rel="stylesheet" type="text/css" href="ef_main.css">
 <title>Sisse logimine</title>
 
-<body>
-
-<h1>Rakendus</h1>
-<p>Sisesta andmed:</p>
-
-
+<body onload="startTime()">
+<header>Rakendus
+<div id="aeg"></div>
+</header>
 <!--offline testimiseks on see ära võetud <form action="Projekt.php" method="post"> -->
-<form action="login.php">
-            <input type="text" id="eesnimi" name="eesnimi" onchange="kasutaja()"><br>
-            <input type="text" id="perenimi" name="perenimi" onchange="kasutaja()"><br>
+<nav>
+    <p>Vali raskusaste</p>
+    <img id="alustame" align="right" alt="" style="size: width: 300px; height: 300px" src="view/index.jpg">
 
-            <input type="radio" name="tase" value=1 onclick="raskus()"> algaja<br>
-            <input type="radio" name="tase" value=2 onclick="raskus()"> veic karmim<br>
-            <input type="radio" name="tase" value=3 onclick="raskus()"> keskmine <br>
-            <input type="radio" name="tase" value=4 onclick="raskus()"> mega hull<br>
-            <input type="radio" name="tase" value=5 onclick="raskus()"> võimatu<br>
-            <button formaction="login.php">Logimine</button>
-            <!--<button onclick="logimine()">Logimine</button>-->
+    <form id="vorm" action="login.php" onchange="">
+    <input type="radio" name="tase" value=1 onclick="document.getElementById('alustame').src='view/quiz.jpg'"> algaja<br>
+    <input type="radio" name="tase" value=2 onclick="document.getElementById('alustame').src='view/dc.png'"> veic karmim<br>
+    <input type="radio" name="tase" value=3 onclick="document.getElementById('alustame').src='view/ac.jpg'"> keskmine <br>
+    <input type="radio" name="tase" value=4 onclick="document.getElementById('alustame').src='view/index.jpg'"> mega hull<br>
+    <input type="radio" name="tase" value=5 onclick="document.getElementById('alustame').src='view/index.jpg'"> võimatu<br>
+
+    <p>Sisesta andmed:</p>
+        <input type="text" id="eesnimi" name="eesnimi" class="kasutaja" onchange="kasutaja()"><br>
+        <input type="text" id="perenimi" name="perenimi" class="kasutaja" onchange="kasutaja()"><br>
+        <button formaction="login.php">Logimine</button>
+        <!--<button onclick="logimine()">Logimine</button>-->
    <button type="submit" value="submit" onclick="logimine()">kasutaja</button>
 </form>
+</nav>
+
 
 <!--
 <form action="fetch.php" method="post">
@@ -34,8 +39,9 @@
   <input type="submit" name="fetch" value="Fetch">
 </form>
 -->
+<footer>Copyright &copy; The dog</footer>
 <script src="Index.js"></script>
-
+<script src="Taimer.js"></script>
 </body>
 
 </html>

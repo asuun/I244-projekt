@@ -24,11 +24,9 @@ var vastusU20;
 var vastusU30;
 var vastusR345
 
-var punktid=0;
-
 function genereeri() {
 
-    E1 = document.getElementById("E1").innerHTML = Math.round(Math.random() * 100);
+    E1 = document.getElementById("E1").innerHTML = +Math.round(Math.random() * 100);
     E2 = document.getElementById("E2").innerHTML = Math.round(Math.random() * 100);
     R1 = document.getElementById("R1").innerHTML = Math.round(Math.random() * 10);
     R2 = document.getElementById("R2").innerHTML = Math.round(Math.random() * 10);

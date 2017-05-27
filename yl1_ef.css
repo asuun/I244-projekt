@@ -1,0 +1,189 @@
+
+#skeem{
+    width: 25%;
+    background-color: #000000;
+}
+
+
+.line {
+    position: fixed;
+    background-color: #000000;
+}
+
+.vertical {
+    width: 3px;
+    height: 80px;
+}
+
+.horizontal {
+    width: 80px;
+    height: 3px;
+    top: 260px;
+}
+.horizontal2{
+    width: 571px;
+    height: 3px;
+    top: 517px;
+}
+
+#scheme00 {
+    top: 260px;
+    left: 550px;
+}
+#scheme30 {
+    top: 260px;
+    left: 780px;
+}
+#scheme40 {
+    top: 260px;
+    left: 860px;
+}
+#scheme20 {
+    top: 260px;
+    left: 1120px;
+}
+
+#scheme53 {
+    top: 440px;
+    left: 550px;
+    color: #0099ff;
+}
+#scheme31 {
+    top: 440px;
+    left: 780px;
+}
+#scheme52 {
+    top: 440px;
+    left: 820px;
+    visibility: hidden;
+}
+
+#scheme51 {
+    top: 440px;
+    left: 1120px;
+}
+#scheme54{
+    top: 260px;
+    left: 820px;
+    visibility: hidden;
+}
+#scheme41 {
+    top: 440px;
+    left: 860px;
+}
+
+#scheme01 {
+    left: 550px;
+}
+
+#scheme02 {
+    left: 700px;
+}
+#scheme13 {
+    left: 780px;
+}
+#scheme21 {
+    left: 860px;
+
+}
+#scheme22 {
+    left: 1040px;
+}
+#scheme50 {
+    left: 550px;
+}
+
+.skeemielement {
+    position: fixed;
+    background-color: #09f;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    text-align: right;
+    outline-width: thick;
+    float: right;
+
+}
+#E1{
+    left: 505px;
+    border-radius: 50px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#E2{
+    left: 1075px;
+    border-radius: 50px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R1{
+    height: 40px;
+    left: 630px;
+    top: 240px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R2{
+    height: 40px;
+    left: 940px;
+    top: 240px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R3{
+    width: 40px;
+    left: 760px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R4{
+    width: 40px;
+    left: 840px;
+    font-size: 24px;
+    outline-width: thick;
+}
+#R5{
+    opacity: 0;
+    width: 40px;
+    left: 800px;
+    font-size: 24px;
+    outline-width: thick;
+}
+.nimiandmed{
+    position: fixed;
+    text-align: match-parent;
+    font-size: 25px;
+
+}
+/* for added rotation effects */
+.forty-five {
+    transform: rotate(45deg);
+}
+/* for added rotation effects */
+.forty-five {
+    transform: rotate(45deg);
+}
+
+¤alajaamataust{
+    background-attachment: fixed;
+}
+#alajaam {
+    position: relative;
+    background-color: #09f;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#alajaamanimi {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+}
+
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);

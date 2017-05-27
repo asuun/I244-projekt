@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="effektid.css">
+    <title>Ülesanne 1</title>
+    <link rel="stylesheet" type="text/css" href="yl1_ef.css">
+    <link rel="stylesheet" type="text/css" href="ef_main.css">
     <script src="jquery-3.2.0.js">
+
         $("#R1");
     </script>
+
     <script>
 
         $(document).ready(function(){
@@ -18,7 +21,6 @@
                 $(this).css("background-color", "#09f");
             });
 
-        /// Millegi pärast ei tööta ID-de järgi punaseks muutmine
            $(".line").hover(function(){
                    $(this).css("background-color", "#FF0000");
                     var gets="scheme".concat($(this).attr('id').charAt(6)).toString();
@@ -37,18 +39,23 @@
 
 </head>
 
-<body>
-    <h1>Alalisvoolu ülesanne</h1>
+<body onload="start()">
+    <header>Alalisvoolu ül</header>
+    <div id="demo">järele jäänud aeg </div>
+
     <p>Arvutada etteantud takistuse ja pingeallikaga ahela voolud</p>
+
     <p>Selleks kasutada kontuurvoolu meetodit</p>
 
-<image id="skeem" align="right" ></image>
+<nav id="vorm">
     <a> I1</a><input type="text" id="I1"><br>
     <a> I2</a><input type="text" id="I2"><br>
     <a> I3</a><input type="text" id="I3"><br>
     <a> I4</a><input type="text" id="I4"><br>
     <a> I34</a><input type="text" id="34"><br>
     <button name="kontroll" onclick="kontroll()"> Saada</button><br>
+    <button onclick="genereeri()">genereeri</button>
+</nav>
 
     <div id="scheme00" class="line vertical"></div>
     <div id="scheme30" class="line vertical"></div>
@@ -84,10 +91,11 @@
     <p id="R4" class="nimiandmed">R4</p>
     <p id="R5" class="nimiandmed">R5</p>
 
-    <button onclick="genereeri()">genereeri</button>
-    <button id="proov" onclick="proov()">xx</button>
 
+    <button id="proov" onclick="proov()">abi</button>
 
+<script src="Taimer.js"></script>
 <script src="yl1.js"></script>
+    <footer>Copyright &copy; The dog</footer>
 </body>
 </html>

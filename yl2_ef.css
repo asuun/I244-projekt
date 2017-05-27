@@ -1,0 +1,39 @@
+.koordinaadid{
+    position: fixed;
+}
+
+.joonestamine{
+    position:fixed;
+    top: 200px;
+    left:550px;
+}
+.line {
+    position: fixed;
+    background-color: #007700;
+}
+.vertical {
+    width: 3px;
+    height: 400px;
+    top: 200px;
+}
+
+.horizontal {
+    width: 200px;
+    height: 3px;
+    top: 400px;
+}
+#x-axis{
+
+    left: 550px;
+}
+#y-axis{
+    left: 550px;
+}
+#takistus{
+    left:350px;
+    width: 400px;
+    height: 3px;
+    top: 400px;
+}
+
+)

@@ -5,6 +5,7 @@ var nimi1;
 var nimi2;
 var tase;
 
+
 function kasutaja() {
     nimi1=document.getElementById("eesnimi").valueOf().value;
     nimi2=document.getElementById("perenimi").valueOf().value;
@@ -29,6 +30,7 @@ function logimine() {
             }else{
                 return
             }
+
     if(tase==1){
         console.log(tase);
         window.location.href='\ylesanne1.html';
@@ -47,6 +49,8 @@ function logimine() {
                 console.log(tase);
             }
             else {
+
+
                 window.alert("palun vali raskusaste")
             }
 }
@@ -76,5 +80,4 @@ function tulemuseks() {
     document.getElementById("wrong").value=vale;
     document.getElementById("right").value=toene;
     console.log(vale);
-
 }
