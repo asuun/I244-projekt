@@ -2,35 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="918e6deb-a48c-4fde-809e-6bb26559010c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/yl1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/yl21.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myscripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yl1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yl12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yl13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yl21.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ylesanne1.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Index.js" afterPath="$PROJECT_DIR$/Controller/login/Index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Taimer.js" afterPath="$PROJECT_DIR$/Model/tasks/Taimer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/View/AC.jpg" afterPath="$PROJECT_DIR$/View/img/AC.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/View/dc.png" afterPath="$PROJECT_DIR$/View/img/dc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/View/index.jpg" afterPath="$PROJECT_DIR$/View/img/index.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/View/index.png" afterPath="$PROJECT_DIR$/View/img/index.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/View/quiz.jpg" afterPath="$PROJECT_DIR$/View/img/quiz.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ef_main.css" afterPath="$PROJECT_DIR$/View/format/ef_main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/indext.html" afterPath="$PROJECT_DIR$/View/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery-3.2.0.js" afterPath="$PROJECT_DIR$/Controller/jquery-3.2.0.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/Model/send.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yl1.js" afterPath="$PROJECT_DIR$/Controller/yl1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yl1_ef.css" afterPath="$PROJECT_DIR$/View/format/yl1_ef.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yl20.html" afterPath="$PROJECT_DIR$/View/yl20.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yl21.js" afterPath="$PROJECT_DIR$/Controller/yl21.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yl22_ef.css" afterPath="$PROJECT_DIR$/View/format/yl22_ef.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yl2_ef.css" afterPath="$PROJECT_DIR$/View/format/yl2_ef.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/I244-projekt.iml" afterPath="$PROJECT_DIR$/.idea/I244-projekt.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/aega.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/start.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nimekiri.html" afterPath="$PROJECT_DIR$/Nimekiri.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ylesanne2.html" afterPath="$PROJECT_DIR$/ylesanne2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/login/Index.js" afterPath="$PROJECT_DIR$/Controller/login/Index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/login/login.php" afterPath="$PROJECT_DIR$/Controller/login/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/login/sessions.php" afterPath="$PROJECT_DIR$/Controller/login/sessions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/SessionTaimer.js" afterPath="$PROJECT_DIR$/Model/SessionTaimer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/send.php" afterPath="$PROJECT_DIR$/Model/send.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/index.html" afterPath="$PROJECT_DIR$/View/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,9 +39,23 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="1150">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model/send.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <marker date="1496090368155" expanded="true" signature="390:464" ph="SELECT eesni... 000I244tabelkatse" />
+                <marker date="1496090368155" expanded="true" signature="390:465" ph="SELECT eesni... 000I244tabelkatse" />
+                <marker date="1496090368155" expanded="true" signature="516:611" ph="INSERT INTO 000I244tabelkatse... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,55 +63,53 @@
       <file leaf-file-name="sessions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/login/sessions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="225">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Taimer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/tasks/Taimer.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionTaimer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Model/SessionTaimer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="puhas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/login/puhas.php">
+      <file leaf-file-name="Projekt.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projekt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1254">
+              <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projekt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projekt.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="n#alusta_session#0;n#!!top" expanded="false" />
+                <marker date="1493578119214" expanded="true" signature="1159:1253" ph="INSERT INTO 000I244tabelkatse... " />
+                <marker date="1493578119214" expanded="true" signature="1159:1254" ph="INSERT INTO 000I244tabelkatse... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/send.php">
+      <file leaf-file-name="Nimekiri.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nimekiri.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <marker date="1495983890467" expanded="true" signature="307:368" ph="SELECT eesni... 000I244tabelkatse" />
-                <marker date="1495983890467" expanded="true" signature="307:369" ph="SELECT eesni... 000I244tabelkatse" />
-                <marker date="1495983890467" expanded="true" signature="532:627" ph="INSERT INTO 000I244tabelkatse... " />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,21 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/index.html">
+      <file leaf-file-name="Index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/login/Index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/start.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -212,8 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/proov.html" />
-        <option value="$PROJECT_DIR$/Projekt.html" />
         <option value="$PROJECT_DIR$/effektid.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Nimekiri.html" />
@@ -252,7 +232,6 @@
         <option value="$PROJECT_DIR$/View/yl20.html" />
         <option value="$PROJECT_DIR$/Controller/yl20.js" />
         <option value="$PROJECT_DIR$/Model/start.php" />
-        <option value="$PROJECT_DIR$/Controller/login/login.php" />
         <option value="$PROJECT_DIR$/Controller/aega.js" />
         <option value="$PROJECT_DIR$/Controller/login/puhas.php" />
         <option value="$PROJECT_DIR$/Model/tasks/Taimer.js" />
@@ -260,9 +239,12 @@
         <option value="$PROJECT_DIR$/Model/tasks/proov.html" />
         <option value="$PROJECT_DIR$/View/yl1.html" />
         <option value="$PROJECT_DIR$/Model/proov.html" />
-        <option value="$PROJECT_DIR$/View/index.html" />
-        <option value="$PROJECT_DIR$/Controller/login/sessions.php" />
         <option value="$PROJECT_DIR$/Model/SessionTaimer.js" />
+        <option value="$PROJECT_DIR$/Controller/login/login.php" />
+        <option value="$PROJECT_DIR$/Controller/login/Index.js" />
+        <option value="$PROJECT_DIR$/Controller/login/sessions.php" />
+        <option value="$PROJECT_DIR$/Model/send.php" />
+        <option value="$PROJECT_DIR$/View/index.html" />
       </list>
     </option>
   </component>
@@ -349,24 +331,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="I244-projekt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="I244-projekt" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,7 +507,7 @@
       <workItem from="1495915428149" duration="8567000" />
       <workItem from="1495967102098" duration="7055000" />
       <workItem from="1495974196412" duration="46303000" />
-      <workItem from="1496065121816" duration="9577000" />
+      <workItem from="1496065121816" duration="12015000" />
     </task>
     <task id="LOCAL-00001" summary="rev2">
       <created>1488742516983</created>
@@ -563,7 +527,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186747000" />
+    <option name="totallyTimeSpent" value="189185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -706,26 +670,6 @@
     <entry file="file://$PROJECT_DIR$/View/sisselogminine.php" />
     <entry file="file://$PROJECT_DIR$/Controller/login.php" />
     <entry file="file://$PROJECT_DIR$/Controller/punktid.js" />
-    <entry file="file://$PROJECT_DIR$/Nimekiri.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projekt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="n#alusta_session#0;n#!!top" expanded="false" />
-            <marker date="1493578119214" expanded="true" signature="1159:1253" ph="INSERT INTO 000I244tabelkatse... " />
-            <marker date="1493578119214" expanded="true" signature="1159:1254" ph="INSERT INTO 000I244tabelkatse... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ylesanne2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -761,14 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projekt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="160" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -809,24 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/login/Index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/aega.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#getaeg#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/yl20.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -842,14 +760,6 @@
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,23 +781,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/login/login.php">
+    <entry file="file://$PROJECT_DIR$/View/yl1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-75">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/send.php">
+    <entry file="file://$PROJECT_DIR$/Model/SessionTaimer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <marker date="1495983890467" expanded="true" signature="307:368" ph="SELECT eesni... 000I244tabelkatse" />
-            <marker date="1495983890467" expanded="true" signature="307:369" ph="SELECT eesni... 000I244tabelkatse" />
-            <marker date="1495983890467" expanded="true" signature="532:627" ph="INSERT INTO 000I244tabelkatse... " />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -899,35 +805,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/yl1.html">
+    <entry file="file://$PROJECT_DIR$/Controller/aega.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="100">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/login/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projekt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254">
+          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projekt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="n#alusta_session#0;n#!!top" expanded="false" />
+            <marker date="1493578119214" expanded="true" signature="1159:1253" ph="INSERT INTO 000I244tabelkatse... " />
+            <marker date="1493578119214" expanded="true" signature="1159:1254" ph="INSERT INTO 000I244tabelkatse... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nimekiri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/login/sessions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/SessionTaimer.js">
+    <entry file="file://$PROJECT_DIR$/Model/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1496090368155" expanded="true" signature="390:464" ph="SELECT eesni... 000I244tabelkatse" />
+            <marker date="1496090368155" expanded="true" signature="390:465" ph="SELECT eesni... 000I244tabelkatse" />
+            <marker date="1496090368155" expanded="true" signature="516:611" ph="INSERT INTO 000I244tabelkatse... " />
+          </folding>
         </state>
       </provider>
     </entry>

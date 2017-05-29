@@ -45,14 +45,6 @@ if ($tase == 1) {
     header('Location: ../../View/yl21.html');
     exit;
 
-} elseif ($tase == 4) {
-    header('Location:../../ylesanne2.html');
-    exit;
-
-} elseif ($tase == 5) {
-    header('Location:../../Projekt.html');
-    exit;
-
 } else {
     echo "palun vali raskusaste";
     header('Location:index.html');

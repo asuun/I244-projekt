@@ -11,14 +11,15 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT eesnimi,perenimi FROM 000I244tabelkatse WHERE eesnimi=$eesnimi";
-
-$result = $conn->query($sql);
-
-echo "Connected successfully";
 $eesnimi= $_POST["eesnimi"];
 $perenimi= $_POST["perenimi"];
 $tase=$_POST["tase"];
+
+$sql = "SELECT eesnimi,perenimi,tase,punktid FROM 000I244tabelkatse WHERE eesnimi=$eesnimi";
+
+$result = $conn->query($sql);
+
+
 $sql = "INSERT INTO 000I244tabelkatse (eesnimi, perenimi,tase)
 VALUES ('$eesnimi', '$perenimi','$tase')";
 if ($conn->query($sql) === TRUE) {

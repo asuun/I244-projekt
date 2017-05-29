@@ -15,13 +15,12 @@
         <input type="radio" name="tase" value=1 onclick="document.getElementById('alustame').src='img/quiz.jpg'"> algaja<br>
         <input type="radio" name="tase" value=2 onclick="document.getElementById('alustame').src='img/dc.png'"> veic karmim<br>
         <input type="radio" name="tase" value=3 onclick="document.getElementById('alustame').src='img/ac.jpg'"> keskmine <br>
-        <input type="radio" name="tase" value=4 onclick="document.getElementById('alustame').src='img/index.jpg'"> mega hull<br>
-        <input type="radio" name="tase" value=5 onclick="document.getElementById('alustame').src='img/index.jpg'"> võimatu<br>
 
         <p>Sisesta andmed:</p>
             <input type="text" id="eesnimi" name="eesnimi" class="kasutaja" onchange="kasutaja()"><br>
             <input type="text" id="perenimi" name="perenimi" class="kasutaja" onchange="kasutaja()"><br>
-            <button formaction="../Controller/login/sessions.php" formmethod="POST">Logimine</button>
+
+            <button formmethod="post" formaction="../Controller/login/sessions.php">Logimine</input>
     </form>
 </nav>
 

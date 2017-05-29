@@ -42,12 +42,7 @@ function logimine() {
             else if(tase==3){
                 console.log(tase);
             }
-            else if(tase==4){
-                console.log(tase);
-            }
-            else if(tase==5){
-                console.log(tase);
-            }
+
             else {
                 window.alert("palun vali raskusaste")
             }
