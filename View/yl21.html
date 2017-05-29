@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="format/yl2_ef.css">
+    <link rel="stylesheet" type="text/css" href="format/ef_main.css">
+    <title>Ülesanne 2</title>
+</head>
+
+<body onload="näivtakistus()">
+<header>Alalisvoolu ül
+    <div id="tiktak"></div></header>
+    <nav>
+        <p>Reaktiivkomponendi suurus</p><br>
+            <a> </a><input type="text" id="X"><br>
+        <p>ReaktiivKomponendi tüüp</p><br>
+            <input type="radio" name="reaktiivKomponent" value=1 onclick="kontroll()"> Mahtuvuslik komponent<br>
+            <input type="radio" name="reaktiivKomponent" value=2 onclick="kontroll()"> Induktiivne komponent<br>
+        <a> induktiivsus</a>
+        <p>Aktiivkomponendi väärtus</p><br>
+            <a> </a><input type="text" id="R"><br>
+    </nav>
+
+<div id="y-axis" class="line vertical"></div>
+<div id="x-axis" class="line horizontal"></div>
+<div id="takistus" ></div>
+<div id="peitmine"></div>
+<div id="xt"></div>
+<div id="yt"></div>
+
+<script src="../Model/tasks/Taimer.js"></script>
+<script src="../Controller/yl21.js"></script>
+</body>
+</html>

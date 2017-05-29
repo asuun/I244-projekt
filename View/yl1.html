@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>Elekter</title>
+    <link rel="stylesheet" type="text/css" href="format/yl1_ef.css">
+    <link rel="stylesheet" type="text/css" href="format/ef_main.css">
+
+    <script src="../Controller/jquery-3.2.0.js"></script>
+    <script src="../Controller/yl1-control.js" ></script>
+
+</head>
+
+<body onload="yl10()">
+
+    <header>Alalisvoolu ül
+        <div onload="sessionTimer()" id="sessioon"></div>
+        <div  id="punktid"></div>
+    </header>
+
+    <p>Arvutada etteantud takistuse ja pingeallikaga ahela voolud</p>
+    <p>Selleks kasutada kontuurvoolu meetodit</p>
+
+    <nav id="vorm" >
+        <a>Rekv</a><input type="text" id="R345"><br>
+        <div id="teineetapp">
+        <a> I1</a><input type="text" id="I1"><br>
+        <a> I2</a><input type="text" id="I2"><br>
+        <a> I34</a><input type="text" id="34"><br>
+        </div >
+        <div id="kolmasetapp">
+            <a>U10</a><input type="text" id="U10"><br>
+            <a>U20</a><input type="text" id="U20"><br>
+            <a>U30</a><input type="text" id="U30"><br>
+        </div>
+        <div id="neljasetapp">
+            <a> I3</a><input type="text" id="I3"><br>
+            <a> I4</a><input type="text" id="I4"><br>
+        </div>
+
+        <button name="kontroll" onclick="kontroll()"> Saada</button><br>
+        <button onclick="genereeri()">genereeri</button>
+        <button onclick="proov()">muuda</button>
+        <button onclick="kontroll()">proovinpunkte</button>
+        <button id="proov" onclick="yl14()">abi</button>
+    </nav>
+    <form action="../Controller/Route.php">
+        <img id="tehtud" formaction="Route.php" src="tehtud.png" style="visibility: hidden">
+    </form>
+
+    <section id="ahel" onmousemove="alalisvool()">
+            <div id="scheme00" class="line vertical" name="scheme0"></div>
+            <div id="scheme30" class="line vertical" name="scheme2"></div>
+            <div id="scheme40" class="line vertical" name="scheme2"></div>
+            <div id="scheme20" class="line vertical" name="scheme?"></div>
+
+            <div id="scheme53" class="line vertical" name="scheme5"></div>
+            <div id="scheme31" class="line vertical" name="scheme5"></div>
+            <div id="scheme52" class="line vertical" name="scheme4"></div>
+            <div id="scheme51" class="line vertical" name="scheme5"></div>
+            <div id="scheme41" class="line vertical" name="scheme5"></div>
+            <div id="scheme54" class="line vertical" name="scheme2"></div>
+
+            <div id="scheme01" class="line horizontal" name="scheme0"></div>
+            <div id="scheme02" class="line horizontal"  name="scheme1"></div>
+
+            <div id="scheme13" class="line horizontal" name="scheme2"></div>
+
+            <div id="scheme21" class="line horizontal" name="scheme2"></div>
+            <div id="scheme22" class="line horizontal" name="scheme?"></div>
+
+            <div id="scheme50" class="line horizontal2" name="scheme5"></div>
+            <div id="E1" class="skeemielement"></div>
+            <div id="E2" class="skeemielement"></div>
+            <div id="R1"  class="skeemielement"></div>
+            <div id="R2"  class="skeemielement"></div>
+            <div id="R3"  class="skeemielement"></div>
+            <div id="R4"  class="skeemielement"></div>
+            <div id="R5"  class="skeemielement"></div>
+
+            <p id="E1" class="nimiandmed">E1</p>
+            <p id="E2" class="nimiandmed">E2</p>
+            <p id="R1" class="nimiandmed">R1</p>
+            <p id="R2" class="nimiandmed">R2</p>
+            <p id="R3" class="nimiandmed">R3</p>
+            <p id="R4" class="nimiandmed">R4</p>
+            <p id="R5" class="nimiandmed">R5</p>
+    </section>
+
+    <footer>Copyright &copy; The dog</footer>
+<script src="../Model/SessionTaimer.js"></script>
+<script src="../Controller/yl1.js"></script>
+
+</body>
+</html>

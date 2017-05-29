@@ -3,7 +3,14 @@
     width: 25%;
     background-color: #000000;
 }
-
+#tehtud{
+    top:200px;
+    left:650px;
+    background-color: #0099ff;
+    width: 415px;
+    height: 415px;
+    order: 4;
+}
 
 .line {
     position: fixed;
@@ -153,18 +160,9 @@
     position: fixed;
     text-align: match-parent;
     font-size: 25px;
-
-}
-/* for added rotation effects */
-.forty-five {
-    transform: rotate(45deg);
-}
-/* for added rotation effects */
-.forty-five {
-    transform: rotate(45deg);
 }
 
-¤alajaamataust{
+#alajaamataust{
     background-attachment: fixed;
 }
 #alajaam {

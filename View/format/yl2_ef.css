@@ -7,6 +7,16 @@
     top: 200px;
     left:550px;
 }
+#peitmine{
+    position: fixed;
+    left: 350px;
+    top:200px;
+    width: 200px;
+    height: 400px;
+    background: white;
+
+
+}
 .line {
     position: fixed;
     background-color: #007700;

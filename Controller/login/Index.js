@@ -49,8 +49,6 @@ function logimine() {
                 console.log(tase);
             }
             else {
-
-
                 window.alert("palun vali raskusaste")
             }
 }

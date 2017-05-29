@@ -23,10 +23,11 @@ function checkTime(i) {
     return i;
 }
 
+// alustamine
 function start() {
-    var diff=90;
+    var diff=1;
         deadline=new Date();
-        var countDownDate = new Date().getTime() + diff*60000;
+        var countDownDate = new Date().getTime() + diff*30000;
 
         var x = setInterval(function() {
 
@@ -43,13 +44,13 @@ function start() {
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
             // Output the result in an element with id="demo"
-            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            document.getElementById('sessioon').innerHTML = hours + "h "
                 + minutes + "m " + seconds + "s ";
 
             // If the count down is over, write some text
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
+                document.getElementById("sessioon").innerHTML = "Aeg täis";
             }
         }, 1000);
 }

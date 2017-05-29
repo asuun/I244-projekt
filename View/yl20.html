@@ -2,15 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Küsimustik</title>
+    <link rel="stylesheet" type="text/css" href="format/ef_main.css">
 </head>
 <body>
-
+<header onload="start()">Küsimustik
+    <div id="tiktak"></div>
+    <div id="punktid"></div>
+</header>
+<nav id="vorm">
+    <table border="1">
+        <tr>
+            <td><div name="1">1</div></td>
+            <td><div name="2">2</div></td>
+            <td><div name="3">3</div></td>
+            <td><div name="4">4</div></td>
+        </tr>
+        <tr>
+            <td><div name="5">5</div></td>
+            <td><div name="6">6</div></td>
+            <td><div name="7">7</div></td>
+            <td><div name="8">8</div></td>
+        </tr>
+        <tr>
+            <td><div name="9">9</div></td>
+            <td><div name="10">10</div></td>
+            <td><div name="11">11</div></td>
+            <td><div name="12">12</div></td>
+        </tr>
+        <tr>
+            <td><div name="13">13</div></td>
+            <td><div name="14">14</div></td>
+            <td><div name="15">15</div></td>
+            <td><div name="16">16</div></td>
+        </tr>
+    </table>
+</nav>
+<section class="kysimustik" onmousemove="vastatudKüsimused()" >
 <p>Kuidas arvutatakse mahtuvusliku komponendi näivtakistust</p>
-        <input type="radio">asd</a><br>
-        <input type="radio">dd</a><br>
-        <input type="radio">kolmas võimalus</a><br>
-        <input type="radio"></a><br>
+        <input type="radio" id="1" name="1">asd</a><br>
+        <input type="radio" id="2" name="1">dd</a><br>
+        <input type="radio" id="3" name="1">kolmas võimalus</a><br>
+        <input type="radio" id="4" name="1"></a><br>
 <p>kuidas arvutatakse induktiivkomponendi näivtakistust</p>
         <input type="radio">asd</a><br>
         <input type="radio">dd</a><br>
@@ -41,6 +74,8 @@
         <input type="radio">dd</a><br>
         <input type="radio">kolmas võimalus</a><br>
         <input type="radio"></a><br>
-
+</section>
+<script src="../Controller/yl20.js"></script>
+<script src="../Model/Tasks/Taimer.js"></script>
 </body>
 </html>

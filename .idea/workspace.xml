@@ -2,12 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="918e6deb-a48c-4fde-809e-6bb26559010c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/effektid.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/yl1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/yl21.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myscripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yl1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yl12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yl13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yl21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ylesanne1.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Index.js" afterPath="$PROJECT_DIR$/Controller/login/Index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Taimer.js" afterPath="$PROJECT_DIR$/Model/tasks/Taimer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/View/AC.jpg" afterPath="$PROJECT_DIR$/View/img/AC.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/View/dc.png" afterPath="$PROJECT_DIR$/View/img/dc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/View/index.jpg" afterPath="$PROJECT_DIR$/View/img/index.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/View/index.png" afterPath="$PROJECT_DIR$/View/img/index.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/View/quiz.jpg" afterPath="$PROJECT_DIR$/View/img/quiz.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ef_main.css" afterPath="$PROJECT_DIR$/View/format/ef_main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/indext.html" afterPath="$PROJECT_DIR$/View/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery-3.2.0.js" afterPath="$PROJECT_DIR$/Controller/jquery-3.2.0.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/Model/send.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yl1.js" afterPath="$PROJECT_DIR$/Controller/yl1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yl1_ef.css" afterPath="$PROJECT_DIR$/View/format/yl1_ef.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yl20.html" afterPath="$PROJECT_DIR$/View/yl20.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yl21.js" afterPath="$PROJECT_DIR$/Controller/yl21.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yl22_ef.css" afterPath="$PROJECT_DIR$/View/format/yl22_ef.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yl2_ef.css" afterPath="$PROJECT_DIR$/View/format/yl2_ef.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/I244-projekt.iml" afterPath="$PROJECT_DIR$/.idea/I244-projekt.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.js" afterPath="$PROJECT_DIR$/Index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indext.html" afterPath="$PROJECT_DIR$/indext.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yl1.js" afterPath="$PROJECT_DIR$/yl1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ylesanne1.html" afterPath="$PROJECT_DIR$/ylesanne1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nimekiri.html" afterPath="$PROJECT_DIR$/Nimekiri.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ylesanne2.html" afterPath="$PROJECT_DIR$/ylesanne2.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,90 +56,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ylesanne2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ylesanne2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ylesanne1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ylesanne1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-              <folding>
-                <element signature="e#3572#3578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Taimer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Taimer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yl1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yl1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indext.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indext.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="e#1787#1793#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yl1_ef.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yl1_ef.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ef_main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ef_main.css">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/login/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/login/sessions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Taimer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/tasks/Taimer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionTaimer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model/SessionTaimer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puhas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/login/puhas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/send.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <marker date="1495983890467" expanded="true" signature="307:368" ph="SELECT eesni... 000I244tabelkatse" />
+                <marker date="1495983890467" expanded="true" signature="307:369" ph="SELECT eesni... 000I244tabelkatse" />
+                <marker date="1495983890467" expanded="true" signature="532:627" ph="INSERT INTO 000I244tabelkatse... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yl1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/yl1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proov.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/proov.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/start.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,32 +167,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>delfi</find>
-      <find>git</find>
-      <find>src</find>
-      <find>getelement</find>
-      <find>input</find>
-      <find>alajaam</find>
-      <find>I2</find>
-      <find>line1</find>
-      <find>proov</find>
-      <find>perekonn</find>
-      <find>php</find>
-      <find>pereko</find>
-      <find>die</find>
-      <find>ige</find>
-      <find>õige</find>
-      <find>sy</find>
-      <find>.js</find>
-      <find>round</find>
-      <find>console</find>
+      <find>console.log(</find>
+      <find>etapp on</find>
+      <find>punktid++</find>
+      <find>eisaa</find>
+      <find>eisaapu</find>
+      <find>read</find>
+      <find>vastus1=true</find>
+      <find>etapp1</find>
+      <find>vastus1</find>
+      <find>function eisaapunkte</find>
+      <find>vastatud</find>
+      <find>r345</find>
+      <find>etapp++</find>
+      <find>etapp2(</find>
+      <find>vastusr345</find>
+      <find>etapp0vastused</find>
+      <find>kontroll01</find>
+      <find>etapp0</find>
+      <find>vastam</find>
+      <find>function vas</find>
+      <find>e2lip</find>
+      <find>vastatud=</find>
+      <find>vastus</find>
+      <find>uusetapp=</find>
+      <find>uusetapp</find>
+      <find>vastatud=1</find>
+      <find>yl10</find>
+      <find>kontrol</find>
+      <find>skeemi</find>
+      <find>checktime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myscripts.js" />
         <option value="$PROJECT_DIR$/proov.html" />
         <option value="$PROJECT_DIR$/Projekt.html" />
         <option value="$PROJECT_DIR$/effektid.css" />
@@ -169,19 +219,50 @@
         <option value="$PROJECT_DIR$/Nimekiri.html" />
         <option value="$PROJECT_DIR$/Projekt.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/ylesanne2.html" />
         <option value="$PROJECT_DIR$/yl22_ef.css" />
-        <option value="$PROJECT_DIR$/yl2_ef.css" />
-        <option value="$PROJECT_DIR$/yl21.js" />
         <option value="$PROJECT_DIR$/yl20.html" />
-        <option value="$PROJECT_DIR$/yl21.html" />
-        <option value="$PROJECT_DIR$/indext.html" />
-        <option value="$PROJECT_DIR$/ef_main.css" />
         <option value="$PROJECT_DIR$/yl1.js" />
-        <option value="$PROJECT_DIR$/Index.js" />
+        <option value="$PROJECT_DIR$/indext.html" />
         <option value="$PROJECT_DIR$/yl1_ef.css" />
-        <option value="$PROJECT_DIR$/ylesanne1.html" />
+        <option value="$PROJECT_DIR$/ef_main.css" />
         <option value="$PROJECT_DIR$/Taimer.js" />
+        <option value="$PROJECT_DIR$/yl2_ef.css" />
+        <option value="$PROJECT_DIR$/Index.js" />
+        <option value="$PROJECT_DIR$/yl21.html" />
+        <option value="$PROJECT_DIR$/yl21.js" />
+        <option value="$PROJECT_DIR$/ylesanne1.html" />
+        <option value="$PROJECT_DIR$/View/yl/ylesanne1.html" />
+        <option value="$PROJECT_DIR$/Controller/ylesanne1.html" />
+        <option value="$PROJECT_DIR$/Controller/yl1_controller.html" />
+        <option value="$PROJECT_DIR$/View/yl21.html" />
+        <option value="$PROJECT_DIR$/ylesanne2.html" />
+        <option value="$PROJECT_DIR$/Controller/yl1-control.js" />
+        <option value="$PROJECT_DIR$/View/ylesanne1.html" />
+        <option value="$PROJECT_DIR$/Controller/login.php" />
+        <option value="$PROJECT_DIR$/View/log.php" />
+        <option value="$PROJECT_DIR$/View/sisselogminine.php" />
+        <option value="$PROJECT_DIR$/Model/logimine.php" />
+        <option value="$PROJECT_DIR$/Controller/y1Kontroll.js" />
+        <option value="$PROJECT_DIR$/Controller/y1valideerimine.js" />
+        <option value="$PROJECT_DIR$/Controller/punktid.js" />
+        <option value="$PROJECT_DIR$/View/format/yl1_ef.css" />
+        <option value="$PROJECT_DIR$/Controller/yl1.js" />
+        <option value="$PROJECT_DIR$/Controller/Route.php" />
+        <option value="$PROJECT_DIR$/View/format/ef_main.css" />
+        <option value="$PROJECT_DIR$/View/yl20.html" />
+        <option value="$PROJECT_DIR$/Controller/yl20.js" />
+        <option value="$PROJECT_DIR$/Model/start.php" />
+        <option value="$PROJECT_DIR$/Controller/login/login.php" />
+        <option value="$PROJECT_DIR$/Controller/aega.js" />
+        <option value="$PROJECT_DIR$/Controller/login/puhas.php" />
+        <option value="$PROJECT_DIR$/Model/tasks/Taimer.js" />
+        <option value="$PROJECT_DIR$/Model/tasks/SessionTaimer.js" />
+        <option value="$PROJECT_DIR$/Model/tasks/proov.html" />
+        <option value="$PROJECT_DIR$/View/yl1.html" />
+        <option value="$PROJECT_DIR$/Model/proov.html" />
+        <option value="$PROJECT_DIR$/View/index.html" />
+        <option value="$PROJECT_DIR$/Controller/login/sessions.php" />
+        <option value="$PROJECT_DIR$/Model/SessionTaimer.js" />
       </list>
     </option>
   </component>
@@ -201,7 +282,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="49" />
@@ -226,6 +311,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,27 +324,122 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="I244-projekt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/NodeJS/js/node-core-modules/node-core-modules-loader.js" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_HOME_DIR$/plugins/NodeJS/js/node-core-modules/node-core-modules-loader.js" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Node.js.Index.js">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\The Dog\IdeaProjects\I244 projekt\I244-projekt\Model" />
+      <recent name="C:\Users\The Dog\IdeaProjects\I244 projekt\I244-projekt\Controller" />
+      <recent name="C:\Users\The Dog\IdeaProjects\I244 projekt\I244-projekt\View" />
+      <recent name="C:\Users\The Dog\IdeaProjects\I244 projekt\I244-projekt\Controller\login" />
+      <recent name="C:\Users\The Dog\IdeaProjects\I244 projekt\I244-projekt\View\yl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\The Dog\IdeaProjects\I244 projekt\I244-projekt\View" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.login.php">
     <configuration default="false" name="myscripts.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="myscripts.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="Index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Index.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="Index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/Controller/login/Index.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="login.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/Model/login.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="login.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Controller/login.php">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -317,14 +498,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.myscripts.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.Index.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.login.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.login.php" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Index.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.myscripts.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.login.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.php" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Index.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.myscripts.js" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +540,10 @@
       <workItem from="1494786814729" duration="305000" />
       <workItem from="1495881613444" duration="11521000" />
       <workItem from="1495893163666" duration="22209000" />
-      <workItem from="1495915428149" duration="1110000" />
+      <workItem from="1495915428149" duration="8567000" />
+      <workItem from="1495967102098" duration="7055000" />
+      <workItem from="1495974196412" duration="46303000" />
+      <workItem from="1496065121816" duration="9577000" />
     </task>
     <task id="LOCAL-00001" summary="rev2">
       <created>1488742516983</created>
@@ -375,7 +563,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116355000" />
+    <option name="totallyTimeSpent" value="186747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +578,7 @@
     <frame x="-11" y="49" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24864864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26216215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5085929" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -404,7 +592,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.48711064" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.4914071" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -422,98 +611,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/myscripts.js</url>
-          <line>11</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/Index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ylesanne1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#3572#3578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#arvutamine#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/effektid.css" />
-    <entry file="file://$PROJECT_DIR$/Projekt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/Index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#arvutamine#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/effektid.css" />
-    <entry file="file://$PROJECT_DIR$/Projekt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/effektid.css" />
-    <entry file="file://$PROJECT_DIR$/Projekt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#arvutamine#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/effektid.css" />
     <entry file="file://$PROJECT_DIR$/Projekt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -533,16 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myscripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#arvutamine#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myscripts.js" />
     <entry file="file://$PROJECT_DIR$/effektid.css" />
     <entry file="file://$PROJECT_DIR$/Projekt.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -579,37 +672,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alajaamataust.png" />
-    <entry file="file://$USER_HOME$/Downloads/jquery-3.2.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc;n#arvutamine#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jquery-3.2.0.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/yl1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projekt.html">
+    <entry file="file://$PROJECT_DIR$/yl1.png" />
+    <entry file="file://$PROJECT_DIR$/yl13.png" />
+    <entry file="file://$PROJECT_DIR$/yl12.png" />
+    <entry file="file://$PROJECT_DIR$/effektid.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_GarageDoorMenu.zip/GarageDoorMenu/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/View/format/yl2_ef.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-3.2.0.js">
+    <entry file="file://$PROJECT_DIR$/View/format/yl22_ef.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscripts.js" />
+    <entry file="file://$PROJECT_DIR$/Controller/jquery-3.2.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -617,20 +702,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yl13.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yl12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Controller/yl1_controller.html" />
+    <entry file="file://$PROJECT_DIR$/View/sisselogminine.php" />
+    <entry file="file://$PROJECT_DIR$/Controller/login.php" />
+    <entry file="file://$PROJECT_DIR$/Controller/punktid.js" />
+    <entry file="file://$PROJECT_DIR$/Nimekiri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projekt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="450">
+          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
             <element signature="n#alusta_session#0;n#!!top" expanded="false" />
             <marker date="1493578119214" expanded="true" signature="1159:1253" ph="INSERT INTO 000I244tabelkatse... " />
@@ -639,138 +726,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/effektid.css" />
-    <entry file="file://$PROJECT_DIR$/yl22_ef.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="133" column="16" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nimekiri.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1494786830455" expanded="true" signature="308:369" ph="SELECT eesni... 000I244tabelkatse" />
-            <marker date="1494786830455" expanded="true" signature="308:370" ph="SELECT eesni... 000I244tabelkatse" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yl20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yl21.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yl21.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_GarageDoorMenu.zip/GarageDoorMenu/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yl2_ef.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ylesanne2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/yl21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ef_main.css">
+    <entry file="file://$PROJECT_DIR$/Controller/yl21.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/format/yl1_ef.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/format/ef_main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yl1.js">
+    <entry file="file://$PROJECT_DIR$/Projekt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="2625">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="160" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/yl1-control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="34" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc;n#alalisvool#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/yl20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indext.html">
+    <entry file="file://$PROJECT_DIR$/Controller/y1valideerimine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="e#1787#1793#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yl1_ef.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="50">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.js">
+    <entry file="file://$PROJECT_DIR$/Controller/Route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ylesanne1.html">
+    <entry file="file://$PROJECT_DIR$/Controller/login/Index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state relative-caret-position="650">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/aega.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#3572#3578#0" expanded="true" />
+            <element signature="n#!!doc;n#getaeg#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taimer.js">
+    <entry file="file://$PROJECT_DIR$/View/yl20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/yl1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="230" column="1" lean-forward="true" selection-start-line="230" selection-start-column="1" selection-end-line="230" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/proov.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/tasks/Taimer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <marker date="1495983890467" expanded="true" signature="307:368" ph="SELECT eesni... 000I244tabelkatse" />
+            <marker date="1495983890467" expanded="true" signature="307:369" ph="SELECT eesni... 000I244tabelkatse" />
+            <marker date="1495983890467" expanded="true" signature="532:627" ph="INSERT INTO 000I244tabelkatse... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/login/puhas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/yl1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/login/sessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/SessionTaimer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
