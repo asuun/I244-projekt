@@ -7,6 +7,7 @@ $_SESSION['tulemused']='tulemuse';
 $_SESSION['eesnimi'] = $eesnimi;
 $_SESSION['perenimi'] = $perenimi;
 $_SESSION['tase'] = $tase;
+$_SESSION['punktid']=$punktid;
 
 $punktid=$_POST["punktid"];
 

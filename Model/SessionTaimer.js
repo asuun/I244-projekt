@@ -2,7 +2,7 @@ function sessionTimer() {
     var today=new Date().getTime();
     // poolteist tundi on 5 400 000ms
     //prooviks 2s,
-    var countDownDate = today+160;
+    var countDownDate = today+5400000;
 
 // Update the count down every 1 second
     var x = setInterval(function() {

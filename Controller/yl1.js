@@ -156,7 +156,7 @@ function etapp2vastused() {
         document.getElementById("U30").value=vastusU30;
         yl13();
         e3lipp=false;
-        console.log("kolmas etapp"+klick);
+
     }
 }
 function etapp3vastused() {
@@ -187,25 +187,25 @@ function kontroll() {
     else if(etapp<4){
         etapp0vastused();
 
-        console.log("siit ka II"+etapp);
+
         kontroll11(I1,vastusI1);
         kontroll12(I2,vastusI2);
         kontroll13(I34,vastusI34);
     }
     else if(etapp<7){
         etapp1vastused();
-        console.log("siit ka III"+etapp);
+
         kontroll20(U10,vastusU10);
         kontroll21(U20,vastusU20);
         kontroll22(U30,vastusU30);
     }
     else if(etapp<10){
         etapp3vastused();
-        console.log("siit ka IIII"+etapp);
+
         kontroll30(I3,vastusI3);
         kontroll31(I4,vastusI4);
     }
-    console.log("etapp on"+etapp);
+
     document.getElementById('punktid').innerHTML ="Punkti: "+punktid;
 }
 
@@ -223,7 +223,7 @@ function saabpunkte() {
 }
 
 function vastusteloendur() {
-    console.log("hüppas loendurisse"+vastatud);
+
     vastatud++;
         if(vastatud==4){
             vastatud=1;
@@ -234,16 +234,16 @@ var uusetapp=0;
 function jargmineEtapp() {
     etapp++;
     uusetapp++;
-    console.log("hüppab järgmisse etappi"+uusetapp);
+
     if(uusetapp==1){
         etapp0vastused();
         yl11();
     }else if(uusetapp==2){
-        console.log("etapp2");
+
         //etapp1vastused();
         yl12();
     }else if(uusetapp==3){
-        console.log("etapp3");
+
         //etapp2vastused();
         yl13()
     }else if(uusetapp==4){
@@ -257,32 +257,32 @@ function jargmineEtapp() {
 function kontroll01( R345, vastusR345) {
 
     if (R345==vastusR345 & vastatud<3) {
-        console.log("I etapi luges õigeks klickiga"+klick);
+
         document.getElementById("R345").style.borderColor = "green";
         document.getElementById('R345').readOnly = true;
         etapp0vastused();
         saabpunkte();
     } else if(vastatud<3){
-        console.log("vale vastus"+vastatud+"korda");
+
         document.getElementById("R345").style.borderColor="red";
         vastusteloendur();
     }
     else if(vastatud==3) {
         jargmineEtapp();
         vastusteloendur();
-        console.log(vastatud+"vastatud");
+
     }
     }
 
 //II ETAPI KONTROLL
 function kontroll11(I1,vastusI1) {
-    console.log(vastatud);
+
     if (I1==vastusI1 & vastatud<3) {
         document.getElementById("I1").style.borderColor = "green";
         document.getElementById('I1').readOnly = true;
         saabpunkte();
     }else if(vastatud<3){
-        console.log(vastatud);
+
         vastusteloendur();
             document.getElementById("I1").style.borderColor="red";
         }else if(vastatud==3){
@@ -349,7 +349,7 @@ function kontroll22(U30,vastusU30) {
         document.getElementById("U30").style.borderColor="green";
         document.getElementById('U30').readOnly = true;
     }else if(vastatud<3){
-        console.log("viimane kontroll");
+
         vastusteloendur();
         document.getElementById("U30").style.borderColor="red";
     }else if(vastatud==3){
@@ -384,3 +384,6 @@ function kontroll31(I4,vastus4) {
             jargmineEtapp();
     }
 }
+window.onload = function autom() {
+    genereeri();
+};
