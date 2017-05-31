@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="View/format/ef_main.css">
+<title>Sisse logimine</title>
+
+<body>
+<header>Elektrotehnika ülesanded
+    <div id="aeg"></div></header>
+
+<nav>
+    <p>Vali raskusaste</p>
+    <img id="alustame" align="right" alt="" style="size: width: 300px; height: 300px" src="img/index.jpg">
+
+    <form id="vorm">
+        <input type="radio" name="tase" value=1 onclick="document.getElementById('alustame').src='img/quiz.jpg'"> algaja<br>
+        <input type="radio" name="tase" value=2 onclick="document.getElementById('alustame').src='img/dc.png'"> veic karmim<br>
+        <input type="radio" name="tase" value=3 onclick="document.getElementById('alustame').src='img/ac.jpg'"> keskmine <br>
+
+        <p>Sisesta andmed:</p>
+        <input type="text" id="eesnimi" name="eesnimi" class="kasutaja" onchange="kasutaja()"><br>
+        <input type="text" id="perenimi" name="perenimi" class="kasutaja" onchange="kasutaja()"><br>
+
+
+        <button formmethod="post" formaction="proov.php">Logimine</input>
+    </form>
+</nav>
+
+
+<!--
+<form action="fetch.php" method="post">
+  Eesnimi:<br>
+  <input type="text" name="eesnimi"><br>
+  Perenimi:<br>
+  <input type="text" name="perenimi">
+
+  <input type="submit" name="fetch" value="Fetch">
+</form>
+-->
+<footer>Copyright &copy; The dog</footer>
+<script src="Controller/Index.js"></script>
+<script src="Model/tasks/Taimer.js"></script>
+</body>
+
+</html>

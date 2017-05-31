@@ -26,11 +26,11 @@ function sessionTimer() {
         // If the count down is finished, write some text
         if (distance < 0) {
             clearInterval(x);
-            window.location.href = '../Model/send.php';
+
             document.getElementById("sessioon").innerHTML = "EXPIRED";
         }
     }, 1000);
 }
 window.onload = function alusta() {
-    sessionTimer();
+/   sessionTimer();
 };

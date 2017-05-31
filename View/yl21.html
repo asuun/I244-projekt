@@ -8,31 +8,51 @@
     <link rel="stylesheet" type="text/css" href="format/ef_main.css">
     <title>Ülesanne 2</title>
 </head>
-<p>Pooleli</p>
-<p></p>
-<p></p>
+<div onload="sessionTimer()" id="sessioon"></div>
+<div  id="punktid" name="punktid"></div>
+
 <body onload="näivtakistus()">
-<header>vahelduvvoolu ül
-    <div id="tiktak"></div></header>
-    <nav>
-        <p>Reaktiivkomponendi suurus</p><br>
-            <a> </a><input type="text" id="X"><br>
-        <p>ReaktiivKomponendi tüüp</p><br>
-            <input type="radio" name="reaktiivKomponent" value=1 onclick="kontroll()"> Mahtuvuslik komponent<br>
-            <input type="radio" name="reaktiivKomponent" value=2 onclick="kontroll()"> Induktiivne komponent<br>
-        <a> induktiivsus</a>
-        <p>Aktiivkomponendi väärtus</p><br>
-            <a> </a><input type="text" id="R"><br>
-    </nav>
+    <header>vahelduvvoolu ülesanne
+        <div onload="sessionTimer()" id="sessioon"></div>
+        <div  id="punktid" name="punktid"></div>
+    </header>
+        <p>vali esmalt, kas tegemist on mahtuvusliku või induktiivse komponendiga:</p>
+            <nav>
+        <div id="esimene">
+            <p>ReaktiivKomponendi tüüp</p><br>
+            <input type="radio" id="C" name="reaktiivKomponent" value=1 onclick="kontroll1()"> Mahtuvuslik komponent<br>
+            <input type="radio" id="L" name="reaktiivKomponent" value=2 onclick="kontroll1()"> Induktiivne komponent<br>
+        </div>
 
-<div id="y-axis" class="line vertical"></div>
-<div id="x-axis" class="line horizontal"></div>
-<div id="takistus" ></div>
-<div id="peitmine"></div>
-<div id="xt"></div>
-<div id="yt"></div>
+                <div id="teine" style="visibility: hidden">
+                    <p>Reaktiivkomponendi suurus</p><br>
+                    <a> </a><input type="text" id="X"><br>
 
-<script src="../Model/tasks/Taimer.js"></script>
-<script src="../Controller/yl21.js"></script>
+                    <p>Aktiivkomponendi väärtus</p><br>
+                    <a> </a><input type="text" id="R"><br>
+
+                    <p>Näivtakistuse väärtus</p>
+                    <input type="text" id="Z"><br>
+                </div>
+                    <button name="kontroll" id="kontroll" onclick="kontroll2()" style="visibility: hidden" > Kontrolli</button><br>
+                    <form>
+                        <input type="text" id="punkte" name="punkte" style="visibility: hidden">
+                        <button id="saada"  name="saada" formmethod="post"  formaction="../Model/send.php" style="visibility: hidden" >LÄBI</button>
+                    </form>
+
+
+
+            </nav>
+<section>
+            <div id="y-axis" class="line vertical"></div>
+            <div id="x-axis" class="line horizontal"></div>
+            <div id="takistus" ></div>
+            <div id="peitmine"></div>
+            <div id="xt"></div>
+            <div id="yt"></div>
+</section>
+            <script src="../Model/tasks/Taimer.js"></script>
+            <script src="../Controller/yl21.js"></script>
+    <footer>Copyright &copy; The dog</footer>
 </body>
 </html>

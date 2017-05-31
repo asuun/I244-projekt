@@ -17,10 +17,10 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
-          <root url="file://$USER_HOME$/Desktop" />
+          <root url="file://$APPLICATION_HOME_DIR$/plugins/NodeJS/js/node-core-modules" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$USER_HOME$/Desktop" />
+          <root url="file://$APPLICATION_HOME_DIR$/plugins/NodeJS/js/node-core-modules" />
         </SOURCES>
       </library>
     </orderEntry>

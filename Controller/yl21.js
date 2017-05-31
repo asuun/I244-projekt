@@ -6,9 +6,22 @@ var reaktkomp;
 var xkontroll;
 var xkomp;
 
+//vastuste ümardamine
+var vastusX;
+var vastusX;
+
+
+var lipp1;
+var lipp2;
+var lipp3;
+var kordused=0;
+
 //väärtuse genereerimine
 function näivtakistus() {
     //karakteristiku joonistamine
+    lipp1=false;
+    lipp2=false;
+    lipp3=false;
     var näivKomponent=document.createElement("div");
     näivKomponent.className='joonestamine';
     näivKomponent.id='takistus';
@@ -69,7 +82,9 @@ function teljestik() {
         + 'left: ' + yx + 'px; ';
     reaktiiv.setAttribute('style', styleReaktiiv);
     reaktiiv.innerHTML=xkomp;
-    console.log(yy+"     "+yx);
+
+    //ümardamine
+
 
     aktiiv = document.createElement("div");
     aktiiv.id='xt';
@@ -84,21 +99,66 @@ function teljestik() {
     document.getElementById('xt').appendChild(aktiiv);
     document.getElementById('yt').appendChild(reaktiiv);
 }
+
 //kontroll kas näivtakistus jõudis õigesse veerandisse
 
-function kontroll() {
+function kontroll1() {
     xkontroll = document.querySelector('input[name="reaktiivKomponent"]:checked').value;
   if(reaktkomp==xkontroll){
+     punktid();
         teljestik();
   }else{
-      document.getElementById("reaktiivKomponent").style.borderColor = "red";
+      teljestik();
+      alert("vale vastus");
   }
+  document.getElementById("teine").style.visibility="visible";
+
     console.log(reaktkomp);
     console.log(xkontroll);
-
+    document.getElementById( "kontroll" ).setAttribute( "onClick", "javascript: kontroll2();" );
+    document.getElementById( "kontroll" ).style.visibility="visible";
     }
 
+function punktid() {
+    document.getElementById('punktid').innerHTML ="Punkti: "+punkte;
+  //  document.getElementById('punkte').value =punkte;
+    console.log("punkte on"+punkte);
+    punkte++;
+}
+function kontroll2() {
+    console.log(kordused);
+    kordused++;
+    if(kordused<4){
+    vastusX=-Math.abs( Math.round(xkomp));
+    vastusR=Math.abs( Math.round(rkomp));
+    if(Z==moodul && lipp1==false){
+        punktid();
+        lipp1==true;
+        document.getElementById("Z").readonly=true;
+        console.log("Z");
+    }
+    if(X==vastusX && lipp2==true){
+        punktid();
+        document.getElementById("Z").readonly=true;
+        lipp2=true;
+        console.log("töötab");
+    }
+    if(R==vastusR && lipp3==true){
+        punktid();
+        document.getElementById("Z").readonly=true;
+        lipp3=true;
+        console.log("Z");
+    }}else{
+        document.getElementById("Z").readonly=true;
+        document.getElementById("R").readonly=true;
+        document.getElementById("X").readonly=true;
+        document.getElementById("kontroll").style.visibility="hidden";
+        document.getElementById("saada").style.visibility="visible";
+    }
 
-
+  if(lipp1==false && lipp3 && lipp2==false){
+      document.getElementById("saada").style.visibility="visible";
+  }
+}
 
 

@@ -15,7 +15,7 @@
 
     <header>Alalisvoolu ül
         <div onload="sessionTimer()" id="sessioon"></div>
-        <div  id="punktid"></div>
+        <div  id="punktid" name="punktid"></div>
     </header>
 
     <p>Arvutada etteantud takistuse ja pingeallikaga ahela voolud</p>
@@ -27,7 +27,7 @@
         <div id="teineetapp">
         <a> I1</a><input type="text" id="I1"><br>
         <a> I2</a><input type="text" id="I2"><br>
-        <a> I34</a><input type="text" id="34"><br>
+        <a> I34</a><input type="text" id="I34"><br>
         </div >
         <div id="kolmasetapp">
             <a>U10</a><input type="text" id="U10"><br>
@@ -39,11 +39,20 @@
             <a> I4</a><input type="text" id="I4"><br>
         </div>
 
-        <button name="kontroll" onclick="kontroll()"> Saada</button><br>
+        <button name="kontroll" id="kontroll" onclick="vajutaKontroll()" > Saada</button><br>
+        <img id="tehtud" src="tehtud.png" style="visibility: hidden">
+
+
+
+        <form>
+            <input type="text" id="punkte" name="punkte" style="visibility: hidden">
+            <button id="saada"  name="saada" formmethod="post"  formaction="../Model/send.php" style="visibility: hidden" >LÄBI</button>
+
+        </form>
+
+
     </nav>
-    <form action="../Controller/Route.php">
-        <img id="tehtud" formaction="Route.php" src="tehtud.png" style="visibility: hidden">
-    </form>
+
 
     <section id="ahel" onmousemove="alalisvool()">
             <div id="scheme00" class="line vertical" name="scheme0"></div>
@@ -75,18 +84,13 @@
             <div id="R4"  class="skeemielement"></div>
             <div id="R5"  class="skeemielement"></div>
 
-            <p id="E1" class="nimiandmed">E1</p>
-            <p id="E2" class="nimiandmed">E2</p>
-            <p id="R1" class="nimiandmed">R1</p>
-            <p id="R2" class="nimiandmed">R2</p>
-            <p id="R3" class="nimiandmed">R3</p>
-            <p id="R4" class="nimiandmed">R4</p>
-            <p id="R5" class="nimiandmed">R5</p>
+
     </section>
 
     <footer>Copyright &copy; The dog</footer>
-<script src="../Model/SessionTaimer.js"></script>
-<script src="../Controller/yl1.js"></script>
-
+<!--<script src="../Model/SessionTaimer.js"></script>!-->
+    <script src="../Controller/yl1-values.js"></script>
+<script src="../Controller/yl1-main.js"></script>
+<script src="VisualControl/yl1-schema.js"></script>
 </body>
 </html>

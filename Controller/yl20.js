@@ -1,13 +1,63 @@
 /**
  * Created by The Dog on 29.05.2017.
  */
-var vastatud;
-function vastatudKüsimused() {
-    $(".kysimustik").hover(function(){
-            $(this).css("background-color", "#FF0000");
-        },
-        //Skeemielementide värvi tagastumine
-        function(){
-            $(this).css("background-color", "#09f");
-        });
+var vastus1;
+var vastus2;
+var vastus3;
+var vastus4;
+var vastus5;
+var vastus6;
+var punkte=0;
+
+function kontroll(){
+        if(document.querySelector('input[name="1"]:checked')){
+            document.getElementById("3").style.color="#FF00FF";
+            varvi();
+           punktid();
+        }else{}
+    if(document.querySelector('input[name="2"]:checked')){
+        varvi();
+        punktid();
+    }else{}
+    if(document.querySelector('input[name="3"]:checked')){
+        varvi();
+        punktid();
+    }else{}
+    if(document.querySelector('input[name="4"]:checked')){
+        varvi();
+        punktid();
+    }else{}
+    if(document.querySelector('input[name="5"]:checked')){
+        varvi();
+        punktid();
+    }else{}
+    if(document.querySelector('input[name="6"]:checked')){
+        varvi();
+        punktid();
+    }else{}
+    saada();
+console.log(punktid);
+
+}
+
+function varvi() {
+    document.getElementById("1").style.visibility="hidden";
+    document.getElementById("2").style.visibility="hidden";
+    document.getElementById("4").style.visibility="hidden";
+}
+
+function saada() {
+    document.getElementById("saatmine").style.visibility="visible";
+    document.getElementById("kontrollimine").style.visibility="hidden";
+
+}
+window.onload = function autom() {
+    document.getElementById("saatmine").style.visibility="hidden";
+};
+
+function punktid() {
+    document.getElementById('punktid').innerHTML ="Punkti: "+punkte;
+    document.getElementById('punkte').value =punkte;
+    console.log("punkte on"+punkte);
+    punkte++;
 }

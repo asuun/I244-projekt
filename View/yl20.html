@@ -8,13 +8,12 @@
 <body>
 <header onload="start()">Küsimustik
     <div id="tiktak"></div>
-    <div id="punktid"></div>
+    <div  id="punktid" name="punktid"></div>
     <p>Erinevad küsimused</p>
-    <p>POOLELI, mingit funktsionaalsust siia lisatud ei ole</p>
-    <p></p>
+
 </header>
 <nav id="vorm">
-    <table border="1">
+    <table border="1" id="tabel">
         <tr>
             <td><div name="1">1</div></td>
             <td><div name="2">2</div></td>
@@ -27,58 +26,55 @@
             <td><div name="7">7</div></td>
             <td><div name="8">8</div></td>
         </tr>
-        <tr>
-            <td><div name="9">9</div></td>
-            <td><div name="10">10</div></td>
-            <td><div name="11">11</div></td>
-            <td><div name="12">12</div></td>
-        </tr>
-        <tr>
-            <td><div name="13">13</div></td>
-            <td><div name="14">14</div></td>
-            <td><div name="15">15</div></td>
-            <td><div name="16">16</div></td>
-        </tr>
     </table>
+
 </nav>
-<section class="kysimustik" onmousemove="vastatudKüsimused()" >
-<p>Kuidas arvutatakse mahtuvusliku komponendi näivtakistust</p>
-        <input type="radio" id="1" name="1"></a><br>
-        <input type="radio" id="2" name="1"></a><br>
-        <input type="radio" id="3" name="1"></a><br>
-        <input type="radio" id="4" name="1"></a><br>
-<p>kuidas arvutatakse induktiivkomponendi näivtakistust</p>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-<p>kuidas arvutatakse aktiivkomponendi näivtakistust</p>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-<p>Kui palju eraldab puhtalt mahtuvuslik takistus soojust</p>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-<p>Kuidas tähistatakse näivvõimsust</p>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-<p>Mis talitusel töötab voolutrafo</p>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-<p>Kui palju eraldab järgnev ahel soojust</p>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
-        <input type="radio"></a><br>
+<section class="kysimustik"  >
+
+
+<p>Kuidas arvutatakse mahtuvusliku komponendi Reaktiivtakistust?</p>
+        <input type="radio" id="3" value=1 name="1">Xc=1/(C*w*f)<br>
+        <input type="radio" id="2" value=0 name="1">Z=R+Xc<br>
+        <input type="radio" id="1" value=0 name="1">Xl=L*w*f<br>
+        <input type="radio" id="4" value=0 name="1">Z=R<br>
+<p>kuidas arvutatakse induktiivkomponendi Reaktiivtakistust?</p>
+        <input type="radio"  id="1" value=0  name="2"  >Xc=1/(C*w*f)<br>
+        <input type="radio" id="2" value=0   name="2"  >Z=R+Xc<br>
+        <input type="radio" id="3"   value="1"  name="2"  >Xl=L*w*f<br>
+        <input type="radio" id="4" value=0  name="2"   >Z=R<br>
+<p>kuidas arvutatakse aktiivkomponendi näivtakistust?</p>
+    <input type="radio" id="1" value=0  name="3"   >Xc=1/(C*w*f)<br>
+    <input type="radio" id="2" value=0  name="3"    >Z=R+Xc<br>
+    <input type="radio" id="4"  value=0 name="3"    >Xl=L*w*f<br>
+    <input type="radio" id="3"  value=0  name="3"   >Z=R
+
+<p>Kuidas tähistatakse näivvõimsust?</p>
+        <input type="radio" id="3" value="1" name="4"    >S<br>
+        <input type="radio" id="2"  value=0  name="4"  >Q<br>
+        <input type="radio" id="1"  value=0 name="4"   >P<br>
+        <input type="radio" id="4" value=0  name="4"   >MVA<br>
+<p>Mis talitlusel töötab voolutrafo?</p>
+        <input type="radio" id="1" value=0  name="5"   >normaaltalitusel<br>
+        <input type="radio" id="3"  value="1" name="5"    >lühistalitusel<br>
+        <input type="radio" id="2"  value=0  name="5"   >niisama-talitlusel<br>
+        <input type="radio" id="4"  value=0  name="5"   >nagu iga trafo<br>
+<p>Kui palju eraldab 40 ohmine takisti soojust, kui teda läbib vool suurusega 5A?</p>
+        <input type="radio" id="1" value=0  name="6"    >120W<br>
+        <input type="radio" id="2" value=0  name="6"   >450W<br>
+        <input type="radio" id="4" value=0  name="6"   >8W<br>
+        <input type="radio" id="3" value="1" name="6"   >200W<br>
+    <button id="kontrollimine" onclick="kontroll()">Kontrollimine</input>
+
+    <form>
+        <input type="text" id="punkte" name="punkte" style="visibility: hidden">
+        <button id="saatmine" formmethod="post" formaction="../Model/send.php" ">Logimine</input>
+        </form>
 </section>
+
+
+
 <script src="../Controller/yl20.js"></script>
 <script src="../Model/Tasks/Taimer.js"></script>
+<footer>Copyright &copy; The dog</footer>
 </body>
 </html>

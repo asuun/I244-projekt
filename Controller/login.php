@@ -11,8 +11,8 @@ include '../../Model/send.php';
 session_start();
     $_SESSION['start']     = time();
     $_SESSION['expire'] = $_SESSION['start'] + (30 * 60);
-    $_SESSION["fname"] =$fname;
-    $_SESSION["lname"] = $sname;
+    $_SESSION["eesnimi"] =$fname;
+    $_SESSION["perenimi"] = $sname;
     $_SESSION["tase"] = $tase;
     header('Location: ../../Model/yl1.html');
 
