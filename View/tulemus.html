@@ -1,0 +1,30 @@
+<?php
+
+
+?>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="format/ef_main.css">
+<title>Sisse logimine</title>
+
+<body onload="startTime()">
+<header>Tulemus
+    <div id="aeg"></div></header>
+
+<nav>
+
+    <form id="vorm">
+        <input type="text" name="eesnimi" id="eesnimi" value="<?php echo htmlspecialchars($eesnimi); ?>"><br>
+        <input type="text" name="perenimi" id="perenimi" value="<?php echo htmlspecialchars($perenimi); ?>"><br>
+        <input type="text" name="tase" id="tase" value="<?php echo htmlspecialchars($tase); ?>"><br>
+        <input type="text" name="punkte" id="punkte" value="<?php echo htmlspecialchars($punkte); ?>"><br>
+
+    </form>
+</nav>
+
+
+<footer>Copyright &copy; The dog</footer>
+
+</body>
+
+</html>

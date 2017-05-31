@@ -15,6 +15,7 @@ var lipp1;
 var lipp2;
 var lipp3;
 var kordused=0;
+var punkte=0;
 
 //väärtuse genereerimine
 function näivtakistus() {
@@ -108,6 +109,7 @@ function kontroll1() {
      punktid();
         teljestik();
   }else{
+      punkte=0;
       teljestik();
       alert("vale vastus");
   }
@@ -120,8 +122,9 @@ function kontroll1() {
     }
 
 function punktid() {
+    punkte++;
     document.getElementById('punktid').innerHTML ="Punkti: "+punkte;
-  //  document.getElementById('punkte').value =punkte;
+    document.getElementById('punkte').value =punkte;
     console.log("punkte on"+punkte);
     punkte++;
 }
@@ -154,9 +157,14 @@ function kontroll2() {
         document.getElementById("X").readonly=true;
         document.getElementById("kontroll").style.visibility="hidden";
         document.getElementById("saada").style.visibility="visible";
+        punkte=0;
+        document.getElementById('punktid').innerHTML ="Punkti: "+punkte;
+        document.getElementById('punkte').value =punkte;
     }
 
   if(lipp1==false && lipp3 && lipp2==false){
+
+      console.log("punkte on"+punkte);
       document.getElementById("saada").style.visibility="visible";
   }
 }

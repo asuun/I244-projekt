@@ -14,7 +14,9 @@ function kontroll(){
             document.getElementById("3").style.color="#FF00FF";
             varvi();
            punktid();
-        }else{}
+        }else{
+            eisaapunkte()
+        }
     if(document.querySelector('input[name="2"]:checked')){
         varvi();
         punktid();
@@ -35,8 +37,9 @@ function kontroll(){
         varvi();
         punktid();
     }else{}
+
     saada();
-console.log(punktid);
+console.log(punkte);
 
 }
 
@@ -47,6 +50,8 @@ function varvi() {
 }
 
 function saada() {
+    punkte=0;
+    document.getElementById('punkte').value =punkte;
     document.getElementById("saatmine").style.visibility="visible";
     document.getElementById("kontrollimine").style.visibility="hidden";
 
@@ -58,6 +63,11 @@ window.onload = function autom() {
 function punktid() {
     document.getElementById('punktid').innerHTML ="Punkti: "+punkte;
     document.getElementById('punkte').value =punkte;
-    console.log("punkte on"+punkte);
     punkte++;
+}
+function eisaapunkte() {
+    punkte=0;
+    document.getElementById('punktid').innerHTML ="Punkti: "+punkte;
+    document.getElementById('punkte').value =punkte;
+
 }

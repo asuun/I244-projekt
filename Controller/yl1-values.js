@@ -104,9 +104,10 @@ function kordusedNulli() {
 
 function punktid() {
     document.getElementById('punktid').innerHTML ="Punkti: "+punkte;
+    punkte++;
     document.getElementById('punkte').value =punkte;
     console.log("punkte on"+punkte);
-    punkte++;
+
 }
 
 
@@ -139,6 +140,8 @@ function edasiVedamine() {
         yl13();
     }else if(etapp==5){
         yl14();
+        punkte=0;
+        document.getElementById('punkte').value =punkte;
         console.log("mäng läbi");
         document.getElementById('I3').readOnly = true;
         document.getElementById('I4').readOnly = true;
